@@ -1,0 +1,31 @@
+.footer {
+	background: $light-green;
+	height: 145px;
+	display: flex;
+	align-items: center;
+	&__social-wrap {
+		display: flex;
+	}
+	&__social {
+		background: $grey;
+		color: #fff;
+		width: 64px;
+		height: 64px;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 40px;	
+		margin-right: 40px;
+		box-shadow: 0 4px 20px #8B7777;
+		text-decoration: none;
+		transition: .2s;
+		&:hover {
+			background: #A09898;
+			// color: $pink;
+		}
+		&:nth-child(3) {
+			margin-right: 120px;
+		}
+	}
+}
